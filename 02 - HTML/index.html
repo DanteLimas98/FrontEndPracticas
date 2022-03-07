@@ -1,1 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>La Repostery </title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- header section start page -->
+<header class="header">
+    <a class="navbar-brand logo" href="index.html"><img src="img/logo.png" alt="" /></a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#">Tienda</a>
+        <a href="form.html">Haz tu pedido</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <a href="admin.html">
+            <div id="login-btn" class="fas fa-user"></div>
+        </a>
+    </div>
+    </div>
+
+</header>
+
+<!-- home section start -->
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Promociones</span>
+                <h3>-50% Dto.</h3>
+                <a href="#" class="btn">Ver</a>
+            </div>
+            <div class="img">
+                <img src="img/home-img-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Promociones</span>
+                <h3>-40% Dto.</h3>
+                <a href="#" class="btn">Ver</a>
+            </div>
+            <div class="img">
+                <img src="img/home-img-2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Promociones</span>
+                <h3>-30% Dto.</h3>
+                <a href="#" class="btn">Ver</a>
+            </div>
+            <div class="img">
+                <img src="img/home-img-3.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+
+<!-- banner section start -->
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="img/banner-1.jpg" alt="">
+        <div class="content">
+            <span>Promociones</span>
+            <h3>-40% Dto.</h3>
+            <a href="#" class="btn">Ver</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="img/banner-2.jpg" alt="">
+        <div class="content">
+            <span>Promociones</span>
+            <h3>-30% Dto.</h3>
+            <a href="#" class="btn">Ver</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="img/banner-3.jpg" alt="">
+        <div class="content">
+            <span>Promociones</span>
+            <h3>-50% Dto.</h3>
+            <a href="#" class="btn">Ver</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- category start  -->
+<div class="heading">
+    <h1>Productos</h1>
+</div>
+
+<section class="category">
+    <h1 class="title"> <span>Adornos</span> <a href="#">view all >></a> </h1>
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="img/cat-1.jpg" alt="">
+            <h3>Cupcakes</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="img/cat-2.jpg" alt="">
+            <h3>Galleta</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="img/cat-3.jpg" alt="">
+            <h3>Pan Dulce</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="img/cat-4.jpg" alt="">
+            <h3>Chocolate</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="img/cat-5.jpg" alt="">
+            <h3>Trigo </h3>
+        </a>
+    </div>
+</section>
+
+
+<!-- products section -->
+
+<section class="products">
+
+    <h1 class="title"> <span>Pasteles</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pay de Moras Rojas</h3>
+                <div class="price">$420.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pan de frutas</h3>
+                <div class="price">$469.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastel de chocolate especial</h3>
+                <div class="price">$399.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastel de nutella con fresa</h3>
+                <div class="price">$450</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastel de pan integral verde</h3>
+                <div class="price">$350</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastel de chocolate con moras rojas</h3>
+                <div class="price">$500.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastel de fresa</h3>
+                <div class="price">$420.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastel de Chocolate con Nutella</h3>
+                <div class="price">$420.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-9.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastel de chocolate de tres leches</h3>
+                <div class="price">$399.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="img/product-10.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastel de tres leches</h3>
+                <div class="price">$359.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- about section start -->
+<div class="heading">
+    <h1> Nosotros</h1>
+</div>
+
+<section class="about">
+    <div class="img">
+        <img src="img/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Bienvenido a La Repostery!</h3>
+        <p>"Una deliciaa de pasteles que podras encontrar en nuestra tienda para el disfrute en todos tus eventos. </p>
+        <p>Somos un local de reposteria que se especializa en realizar pasteles deliciosos , lo cual hemos hecho los ultimos 10 años. Atrevete a probar una cantidad impresionante de sabores en nuestra tienda. Acercate a nosotros.</p>
+    </div>
+</section>
+
+<!-- gallery section start -->
+
+<section class="gallery">
+    <h1 class="title"> our <span>Galeria</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/gallery-img-1.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/gallery-img-2.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/gallery-img-3.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/gallery-img-4.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/gallery-img-5.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- client section start -->
+<br>
+<div class="heading">
+    <h1>Contacto & Servicios</h1>
+</div>
+
+<section class="info-container">
+
+    <div class="info">
+        <img src="img/icons-1.png" alt="">
+        <div class="content">
+            <h3>Envios</h3>
+            <span>Ofrecemos envios a domicilio</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img src="img/icons-2.png" alt="">
+        <div class="content">
+            <h3>Horario de atención</h3>
+            <span>Lunes a Viernes : 10:00 am a 8:00 pm</span><br>
+            <span>Sabado : 10:00 am a 6:00 pm</span><br>
+            <span>Lunes a Viernes : 10:00 am a 2:00 pm</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img src="img/icons-3.png" alt="">
+        <div class="content">
+            <h3>Facilidad de pago</h3>
+            <span>Efectivo o tarjeta</span>
+        </div>
+    </div>
+
+</section>
+
+<!-- contect section start -->
+
+<section class="contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Telefono</h3>
+            <p>Fijo: 8182408163</p>
+            <p>Celular: 8116101119</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>Correo</h3>
+            <p>yarie_rojas98@gmail.com</p>
+            <p>danielmtz069068@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Direccion</h3>
+            <p>Galio #423 Los Cristales</p>
+        </div>
+
+    </div>
+    <!-- custom js file link -->
+    <script src="main.js"></script>
+
+</html>
